@@ -22,7 +22,7 @@ class Wrapper(dict):
             self.charset = 'utf-8'
 
         for method in dir(self):
-            if method.startswith('get_'):
+            if method.startswith('get_') and method != 'get_dexterity_fields':
                 getattr(self, method)()
 
     def decode(self, s, encodings=('utf8', 'latin1', 'ascii')):
