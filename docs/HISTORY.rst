@@ -1,11 +1,11 @@
 Changelog
 =========
 
-1.10 (unreleased)
+1.10 (2016-06-03)
 -----------------
 
-- Nothing changed yet.
-
+* Fixed bug in get_item view [Sandra Saornil]
+* agafar contingut de formularis omplerts [Alberto Duran]
 
 1.9 (2015-05-28)
 ----------------
